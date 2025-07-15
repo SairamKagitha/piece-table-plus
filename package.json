@@ -1,0 +1,42 @@
+{
+    "name": "piece-table-plus",
+    "version": "0.0.1",
+    "description": "A piece table implementation in TypeScript. This data structure is designed for efficient text editing operations, such as insertions, deletions, and undo-redo functionality. It is particularly useful in text editors and applications that require frequent modifications to text content.",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "author": {
+        "email": "sairamkagitha5@gmail.com",
+        "name": "Sairam Kagitha"
+    },
+    "homepage": "https://github.com/SairamKagitha/piece-table-plus",
+    "readme": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SairamKagitha/piece-table-plus"
+    },
+    "bugs": {
+        "url": "https://github.com/SairamKagitha/piece-table-plus/issues"
+    },
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "private": false,
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts --clean"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "tsup": "^8.5.0",
+        "typescript": "^5"
+    },
+    "keywords": [
+        "piece-table",
+        "text-editor",
+        "typescript",
+        "undo-redo",
+        "data-structure",
+        "text-editing"
+    ]
+}
